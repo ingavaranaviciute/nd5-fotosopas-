@@ -184,4 +184,80 @@ button, .btn {
           background-color: transparent;
           cursor: pointer; }
 
+#intro {
+  overflow: hidden;
+  margin-bottom: 40px; }
+  #intro .left {
+    width: 470px;
+    height: 426px;
+    background-color: #333333;
+    float: left;
+    margin: 40px 20px; }
+  #intro .right {
+    margin-top: 40px;
+    padding-left: 20px; }
+    #intro .right div {
+      width: 225px;
+      height: 228px;
+      float: left;
+      position: relative;
+      text-align: center; }
+      #intro .right div h4 {
+        font-size: 16px;
+        color: #0099ff;
+        font-weight: 100;
+        padding-top: 70px;
+        margin-bottom: 10px; }
+      #intro .right div p {
+        font-size: 13px;
+        color: #666666;
+        line-height: 1.5; }
+      #intro .right div .introBox {
+        width: 85px;
+        height: 80px;
+        background-color: #333333;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        position: absolute;
+        left: 70px;
+        padding-top: 30px; }
+  #intro .shout {
+    clear: both;
+    overflow: hidden;
+    width: 960px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e0e0e0;
+    padding: 20px 38px; }
+    #intro .shout:hover {
+      border-left: 5px solid #0099ff; }
+    #intro .shout div {
+      float: left; }
+      #intro .shout div h1 {
+        font-size: 36px;
+        color: #333333;
+        font-weight: 100;
+        margin: 0;
+        line-height: 1.5; }
+      #intro .shout div p {
+        font-size: 18px;
+        color: #333333;
+        font-weight: 100;
+        margin: 0; }
+  #intro .introButton {
+    border-radius: 5px;
+    border: none;
+    background-color: #0099ff;
+    height: 55px;
+    color: #e2dddd;
+    font-weight: 100;
+    font-size: 26px;
+    padding: 8px 11px; }
+  #intro #left_side_button {
+    float: left;
+    padding-left: 70px;
+    padding-top: 15px; }
+
 /*# sourceMappingURL=style.css.map */
