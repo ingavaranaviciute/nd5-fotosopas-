@@ -119,19 +119,19 @@ header {
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #999999; }
+  color: blue; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #999999; }
+  color: blue; }
 
 :-ms-input-placeholder {
   /* IE 10+ */
-  color: #999999; }
+  color: blue; }
 
 ::-moz-placeholder {
   /* Firefox 18- */
-  color: #999999; }
+  color: blue; }
 
 #poster {
   height: 500px;
