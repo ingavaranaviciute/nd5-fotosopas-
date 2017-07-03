@@ -310,6 +310,23 @@ button, .btn {
       padding-top: 40px;
       border: 3px solid #1a1a1a;
       outline: 1px solid #555555; }
+    #last .infoDiv:last-child {
+      margin-right: 0; }
+      #last .infoDiv:last-child input {
+        background-color: #232323;
+        border-radius: 5px;
+        border: none;
+        padding: 8px 46px 8px 8px;
+        margin-bottom: 10px;
+        color: white; }
+      #last .infoDiv:last-child textarea {
+        background-color: #232323;
+        border-radius: 5px;
+        border: none;
+        padding: 8px 8px;
+        resize: none;
+        margin-bottom: 5px;
+        color: white; }
   #last p {
     font-size: 12px;
     font-weight: 100;
@@ -324,5 +341,16 @@ button, .btn {
   text-align: right; }
   .readMore a:after {
     content: " \00BB"; }
+
+footer {
+  background-color: #222222;
+  padding: 25px 20px; }
+  footer p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #666666;
+    display: inline-block; }
+  footer .rightParagaf {
+    padding-left: 524px; }
 
 /*# sourceMappingURL=style.css.map */

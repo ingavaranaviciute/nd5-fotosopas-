@@ -228,7 +228,7 @@ $padding: 20px;
         border-radius: 8px;
         background-color: black;
 
-        &:hover, &.active  {
+        &:hover, &.active {
           background-color: transparent;
           cursor: pointer;
         }
@@ -347,19 +347,20 @@ $padding: 20px;
   background-color: #1a1a1a;
   border-top: 5px solid #000000;
   overflow: hidden;
-  h4{
+
+  h4 {
     margin-top: 0;
     margin-bottom: 21px;
     font-size: 12px;
     font-weight: 100;
     color: white;
   }
-  h5{
+  h5 {
     font-size: 14px;
     color: #666666;
     margin: 0;
   }
-  h6{
+  h6 {
     font-size: 10px;
     font-weight: 100;
     color: #666666;
@@ -375,18 +376,15 @@ $padding: 20px;
     margin-right: 20px;
     //background-color: #0099ff;
 
-
     &.links {
 
-
-
-      a{
+      a {
         border-bottom: 1px solid #232323;
         display: block;
         padding-top: 6px;
         padding-bottom: 6px;
 
-        &:before{
+        &:before {
           content: "\00BB";
           display: inline-block;
           margin-right: 10px;
@@ -416,8 +414,29 @@ $padding: 20px;
 
     }
 
-  }
+    &:last-child {
+      margin-right: 0;
 
+      input {
+        background-color: #232323;
+        border-radius: 5px;
+        border: none;
+        padding: 8px 46px 8px 8px;
+        margin-bottom: 10px;
+        color: white;
+
+      }
+      textarea {
+        background-color: #232323;
+        border-radius: 5px;
+        border: none;
+        padding: 8px 8px;
+        resize: none;
+        margin-bottom: 5px;
+        color: white;
+      }
+    }
+  }
 
   p {
     font-size: 12px;
@@ -430,25 +449,33 @@ $padding: 20px;
     text-decoration: none;
     font-size: 12px;
 
-
-    }
-
   }
 
+}
 
 .readMore {
   text-align: right;
 
-  a:after{
+  a:after {
     content: " \00BB";
-
-
 
   }
 
 }
 
-
+footer {
+  background-color: #222222;
+  padding: 25px 20px;
+  p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #666666;
+    display: inline-block;
+  }
+  .rightParagaf{
+    padding-left: 524px;
+  }
+}
 
 
 
