@@ -44,6 +44,10 @@ header {
   float: left;
   padding-top: 20px;
   font-size: 12px;
+
+  button{
+    border-radius: 0;
+  }
 }
 
 #secondary_buttons {
@@ -56,6 +60,7 @@ header {
   color: #9f9f9f;
   border-width: 0;
   border-right: 1px solid #9f9f9f;
+
 
 }
 

@@ -36,6 +36,8 @@ header {
   float: left;
   padding-top: 20px;
   font-size: 12px; }
+  #primary_buttons button {
+    border-radius: 0; }
 
 #secondary_buttons {
   float: right;
