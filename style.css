@@ -180,7 +180,7 @@ button, .btn {
         border: 4px solid black;
         border-radius: 8px;
         background-color: black; }
-        #poster .slider .controls div:hover {
+        #poster .slider .controls div:hover, #poster .slider .controls div.active {
           background-color: transparent;
           cursor: pointer; }
 
@@ -228,9 +228,10 @@ button, .btn {
     margin-left: 20px;
     margin-right: 20px;
     background-color: #e0e0e0;
-    padding: 20px 38px; }
+    padding: 20px 38px;
+    border-left: 5px solid transparent; }
     #intro .shout:hover {
-      border-left: 5px solid #0099ff; }
+      border-left-color: #0099ff; }
     #intro .shout div {
       float: left; }
       #intro .shout div h1 {
@@ -257,5 +258,71 @@ button, .btn {
     float: left;
     padding-left: 70px;
     padding-top: 15px; }
+
+#last {
+  padding: 44px 20px 40px 20px;
+  background-color: #1a1a1a;
+  border-top: 5px solid #000000;
+  overflow: hidden; }
+  #last h4 {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-size: 12px;
+    font-weight: 100;
+    color: white; }
+  #last h5 {
+    font-size: 14px;
+    color: #666666;
+    margin: 0; }
+  #last h6 {
+    font-size: 10px;
+    font-weight: 100;
+    color: #666666;
+    line-height: 1.8;
+    margin: 0; }
+  #last .infoDiv {
+    width: 225px;
+    height: 387px;
+    background-color: #1a1a1a;
+    float: left;
+    margin-right: 20px; }
+    #last .infoDiv.links a {
+      border-bottom: 1px solid #232323;
+      display: block;
+      padding-top: 6px;
+      padding-bottom: 6px; }
+      #last .infoDiv.links a:before {
+        content: "\00BB";
+        display: inline-block;
+        margin-right: 10px;
+        color: gray; }
+      #last .infoDiv.links a:first-of-type {
+        padding-top: 0; }
+      #last .infoDiv.links a:last-of-type {
+        border-bottom: 0; }
+    #last .infoDiv .placeholder {
+      width: 225px;
+      height: 99px;
+      margin-top: 22px;
+      background-color: #232323;
+      color: white;
+      text-align: center;
+      padding-top: 40px;
+      border: 3px solid #1a1a1a;
+      outline: 1px solid #555555; }
+  #last p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #666666;
+    line-height: 1.8; }
+  #last a {
+    color: #0099ff;
+    text-decoration: none;
+    font-size: 12px; }
+
+.readMore {
+  text-align: right; }
+  .readMore a:after {
+    content: " \00BB"; }
 
 /*# sourceMappingURL=style.css.map */
